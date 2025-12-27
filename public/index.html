@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Dashboard</title>
+    <title>News Dashboard - Hello World</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="root"></div>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="container">
+        <header>
+            <h1>Hello World!</h1>
+            <p class="subtitle">Welcome to the News Dashboard</p>
+        </header>
+        <main>
+            <div class="card">
+                <h2>Getting Started</h2>
+                <p>This is your news dashboard homepage. Here you'll soon be able to:</p>
+                <ul>
+                    <li>View real-time news from multiple sources</li>
+                    <li>Filter and search news articles</li>
+                    <li>Customize your news feed</li>
+                    <li>Save your favorite articles</li>
+                </ul>
+            </div>
+            <div class="info">
+                <p id="timestamp"></p>
+            </div>
+        </main>
+    </div>
+    <script src="../src/index.js"></script>
 </body>
 </html>

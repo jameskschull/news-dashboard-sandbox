@@ -4,7 +4,8 @@
   "description": "A modern news dashboard application",
   "main": "index.js",
   "scripts": {
-    "dev": "echo 'Development server not configured yet'",
+    "start": "npx http-server public -p 8080 -o",
+    "dev": "npx http-server public -p 8080 -o",
     "build": "echo 'Build script not configured yet'",
     "test": "echo 'Tests not configured yet'",
     "lint": "echo 'Linter not configured yet'"
@@ -20,5 +21,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jameskschull/news-dashboard-sandbox"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
