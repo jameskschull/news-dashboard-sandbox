@@ -1,0 +1,24 @@
+{
+  "name": "news-dashboard-sandbox",
+  "version": "0.1.0",
+  "description": "A modern news dashboard application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server not configured yet'",
+    "build": "echo 'Build script not configured yet'",
+    "test": "echo 'Tests not configured yet'",
+    "lint": "echo 'Linter not configured yet'"
+  },
+  "keywords": [
+    "news",
+    "dashboard",
+    "react",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jameskschull/news-dashboard-sandbox"
+  }
+}
